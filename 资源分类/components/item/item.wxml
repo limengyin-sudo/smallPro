@@ -1,0 +1,8 @@
+<view class="item">
+    <slot name="icon"></slot>
+    <text class="type">类型:({{indexData.type}})</text>
+    <image class="link" src="../../images/url.png">{{indexData.url}}</image>
+    <text class="desc">描述:({{indexData.desc}})</text>
+    <text class="dt">{{indexData.dt}}</text>
+    <text class="who">----{{indexData.who}}</text>
+</view>

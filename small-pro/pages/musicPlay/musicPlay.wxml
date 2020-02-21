@@ -1,0 +1,14 @@
+<view class="container">
+    <image class="bg" src="{{poster}}"></image>
+    <view class="bgCover"></view>
+    <image class="shou {{isPlay?'play':'pause'}}" src="/images/music/shou.png"></image>
+    <view class="circle">
+        <image class="album {{isPlay?'running':'paused'}}" 
+        src="{{poster}}" mode="aspectFit|aspectFill|widthFix"
+        lazy-load="{{ture}}"></image>
+    </view>
+    <text class="name">{{name}}</text>
+    <image class="isPlay" bind:tap="handleClick" 
+    src="{{isPlay?'/images/icon/play.png':'/images/icon/pause.png'}}" 
+    mode="aspectFit|aspectFill|widthFix"></image>
+</view>

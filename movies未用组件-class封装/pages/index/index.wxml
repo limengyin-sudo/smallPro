@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="item" bind:tap="handleClick" wx:for="{{movies}}" 
+  wx:key="{{item}}" data-id="{{item.id}}">
+    <image src="{{item.images.small}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
+<view class="end" wx:if="{{isEnd}}">已经达到底部</view>

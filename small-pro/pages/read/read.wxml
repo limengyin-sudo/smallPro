@@ -1,0 +1,11 @@
+<view class="container">
+    <swiper indicator-dots="true" indicator-color="rgba(11, 44, 66, .6)" 
+    autoplay="true" indicator-active-color="#C20C0C">
+        <swiper-item wx:for="{{banners}}" wx:key="{{item.id}}">
+            <image src="{{item.imageUrl}}"></image>
+        </swiper-item>
+    </swiper>
+    <v-read data="{{item}}" wx:for="{{postList}}" wx:key="{{item.title}}">
+
+    </v-read>
+</view>

@@ -1,0 +1,15 @@
+<view class="item" bind:tap="handleItem">
+    <view class="head">
+        <image src="{{data.avatar}}"></image>
+        <text>{{data.date}}</text>
+    </view>
+    <view class="title">{{data.title}}</view>
+    <image class="cover" src="{{data.imgSrc}}"></image>
+    <view class="content">{{data.content}}</view>
+    <view class="bottom">
+        <image class="icon" src="/images/icon/chat1.png"></image>
+        <text>{{data.collection}}</text>
+        <image class="icon" src="/images/icon/chat.png"></image>
+        <text>{{data.reading}}</text>
+    </view>
+</view>

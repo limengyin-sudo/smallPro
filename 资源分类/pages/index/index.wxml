@@ -1,0 +1,74 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/app.png"></image>
+      <text class="head">App</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{Apps}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/ios.png"></image>
+      <text class="head">Ios</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{Ioss}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/资源 2.png"></image>
+      <text class="head">拓展资源</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{resources}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/推荐.png"></image>
+      <text class="head">瞎推荐</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{recommends}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/安卓.png"></image>
+      <text class="head">Android</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{Androids}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/前端开发.png"></image>
+      <text class="head">前端</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{Fronts}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/福利.png"></image>
+      <text class="head">福利</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{Welfares}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+
+  <view class="box">
+      <image slot="icon" class="icon" src="../../images/视频.png"></image>
+      <text class="head">休息视频</text>
+      <text class="more">更多></text>
+  </view>
+  <v-item wx:for="{{Vedios}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-item>
+</view>

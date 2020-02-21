@@ -1,0 +1,11 @@
+<view class="container">
+    <v-singer wx:for="{{singer}}" singerData="{{item}}" wx:key="{{item.id}}">
+        <view slot="userIcon" class="userIcon"><image class="user" src="../../images/infoeb.png"></image></view>
+        <view slot="collectionIcon" class="collectionIcon"><image class="collection" src="../../images/collection.png"></image></view>
+    </v-singer>
+    <v-sheet wx:for="{{songs}}" songData="{{item}}" wx:key="{{item.id}}">
+        <view slot="userIcon" class="userIcon"><image class="user" src="../../images/infoeb.png"></image></view>
+        <view slot="collectionIcon" class="collectionIcon"><image class="collection" src="../../images/collection.png"></image></view>
+        <view slot="icon"><image class="icon" src="../../images/play.png"></image></view>
+    </v-sheet>
+</view>

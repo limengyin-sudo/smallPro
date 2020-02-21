@@ -1,0 +1,38 @@
+.item{
+    display: block;
+}
+.title{
+    display: block;
+    padding: 20px;
+    font-size: 24px;
+}
+.cover{
+    width: 340rpx;
+    height: 500rpx;
+    padding: 8px;
+    display: block;
+    padding-left: 20px;
+}
+.detail-lists{
+    padding-left: 20px;
+}
+.detail-lists text{
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+}
+.detail-lists text:first-child{
+    margin-top: 8px;
+    line-height: 30px;
+}
+.validity{
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    height: 300px;
+    width: 700rpx;
+    display: inline-block;
+    text-indent: 2em;
+    line-height: 30px;
+}

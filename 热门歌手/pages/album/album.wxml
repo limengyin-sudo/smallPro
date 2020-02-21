@@ -1,0 +1,5 @@
+<view class="container">
+    <v-album  wx:for="{{hotAlbum}}" albumData="{{item}}" wx:key="{{item.id}}">
+
+    </v-album>
+</view>

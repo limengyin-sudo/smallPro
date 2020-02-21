@@ -1,0 +1,32 @@
+.userIcon,
+.collectionIcon{
+    position: absolute;
+    width: 60rpx;
+    height: 50rpx;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 12rpx;
+}
+.userIcon{
+    bottom: 60rpx;
+    right: 180rpx;
+}
+.collectionIcon{
+    bottom: 60rpx;
+    right: 80rpx;
+}
+.user,
+.collection{
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    bottom: -10rpx;
+    right: -10rpx;
+}
+.icon{
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40rpx;
+}

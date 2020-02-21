@@ -1,0 +1,60 @@
+ .container{
+    background-color: #fff;
+ }
+ .nav{
+    position: relative;
+    border-bottom: 1px solid #e0e0e0;
+ }
+ .search-wrap{
+    padding: 20rpx;
+ }
+ input{
+    width: 450rpx;
+    height: 80rpx;
+    border-radius: 46rpx;
+    padding-left: 30rpx;
+    font-size: 30rpx;
+    margin-left: 40rpx;
+    background-color: #eee;
+ }
+ .search{
+     width: 120rpx;
+     height: 70rpx;
+     background-color: #fff;
+     color: #333;
+     position: absolute;
+     top: 52rpx;
+     right: 60rpx;
+     font-size: 27rpx;
+     border-radius: 12rpx;
+ }
+ .ago,
+ .hot{
+     padding-left: 26rpx;
+     border-left: 8rpx solid #666;
+     margin-left: 40rpx;
+     margin-top: 30rpx;
+     font-size: 32rpx;
+     color: #333;
+ }
+ .ago-content{
+     width: 680rpx;
+     margin-left: 40rpx;
+     margin-top: 20rpx;
+ }
+ .hot-content{
+     width: 680rpx;
+     margin-left: 40rpx;
+     margin-top: 20rpx;
+ }
+ .item{
+     display: inline-block;
+     background-color: #eee;
+     border-radius: 12rpx;
+     line-height: 60rpx;
+     font-size: 30rpx;
+     color: #666;
+     padding-left: 20rpx;
+     padding-right: 20rpx;
+     margin: 10rpx;
+ }

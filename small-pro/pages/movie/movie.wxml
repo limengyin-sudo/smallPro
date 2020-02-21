@@ -1,0 +1,12 @@
+<view class="container" wx:for="{{movies}}" wx:for-item="list" wx:key="{{index}}">
+    <view class="title">
+        <text>{{list.title}}</text>
+        <text class="more" data-url="{{list.subTitle}}" data-title="{{list.title}}" 
+        bind:tap="handleMore">更多></text>
+    </view>
+    <view class="content">
+        <v-movie wx:for="{{list.data}}" wx:key="{{index}}" data="{{item}}">
+            
+        </v-movie>
+    </view>
+</view>

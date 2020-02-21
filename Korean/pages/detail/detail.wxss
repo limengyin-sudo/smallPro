@@ -1,0 +1,21 @@
+/* pages/detail/detail.wxss */
+.icon{
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:70rpx;
+}
+text{
+    display: inline-block;
+    line-height: 180rpx;
+    font-size: 30rpx;
+    width: 130rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.songName{
+    color: #333;
+}

@@ -1,0 +1,5 @@
+<view class="container">
+  <v-index  wx:for="{{artists}}" indexData="{{item}}" wx:key="{{item.id}}">
+    <view slot="icon"><image class="icon" src="../../images/infoeb.png"></image></view>
+  </v-index>
+</view>

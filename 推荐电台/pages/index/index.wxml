@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <v-index wx:for="{{programs}}" wx:key="{{item.id}}" indexData="{{item}}">
+      
+  </v-index>
+</view>

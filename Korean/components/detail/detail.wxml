@@ -1,0 +1,8 @@
+<view class="item" bind:tap="handleClick">
+    <slot name="icon"></slot>
+    <image class="pic" src="{{detailData.picUrl}}"></image>
+    <text class="songName">{{detailData.songName}}</text>
+    <text class="dt">{{detailData.dt}}</text>
+    <text class="arName">{{detailData.arName}}</text>
+    <text class="alName">{{detailData.alName}}</text>
+</view>

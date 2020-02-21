@@ -1,0 +1,54 @@
+.item{
+    display: flex;
+    position: relative;
+    border: 1px solid #e0e0e0;
+}
+/* .item>.left{
+    width: 100rpx;
+    height: 100rpx;
+} */
+.avatar{
+    width: 80rpx;
+    height: 80rpx;
+    margin: 20rpx;
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+}
+.right{
+    padding: 20rpx;
+}
+.nickname{
+    font-size: 32rpx;
+    display: block;
+    font-weight: bold;
+}
+.content{
+    display: block;
+    font-size: 28rpx;
+    color: #444;
+    text-indent: 2em;
+    line-height: 60rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+.time,
+.likedCount{
+    font-size: 30rpx;
+    color: #333;
+}
+/* .time{
+   
+} */
+.likedCount,
+.repliedMark{
+    position: absolute;
+    bottom: 22rpx;
+}
+.likedCount{
+    right: 110rpx;
+}
+.repliedMark{
+    font-size: 32rpx;
+    color: #333;
+    right: 20rpx;
+}

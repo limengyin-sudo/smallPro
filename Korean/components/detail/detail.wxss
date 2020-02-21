@@ -1,0 +1,10 @@
+.item{
+    position: relative;
+    height: 200rpx;
+    border-bottom: 1px solid #e0e0e0;
+}
+.pic{
+    width: 160rpx;
+    height: 160rpx;
+    margin: 20rpx;
+}

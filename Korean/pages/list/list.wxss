@@ -1,0 +1,8 @@
+/* pages/list/list.wxss */
+.icon{
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    bottom: 20rpx;
+    right: 200rpx;
+}

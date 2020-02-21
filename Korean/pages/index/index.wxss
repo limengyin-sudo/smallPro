@@ -1,0 +1,16 @@
+.container{
+    width: 750rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.end{
+    z-index: 100;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width:750rpx;
+    font-size: 30rpx;
+    color: #666;
+    margin-top: 20rpx;
+}

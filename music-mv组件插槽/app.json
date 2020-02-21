@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/music/music",
+    "pages/mv/mv"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb7070",
+    "navigationBarTitleText": "music-mv",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#bebebe",
+    "selectedColor":"#eb7070",
+    "list": [{
+      "pagePath": "pages/music/music",
+      "iconPath":"/images/music.png",
+      "selectedIconPath":"/images/selected-music.png",
+      "text": "音乐"
+    }, {
+      "pagePath": "pages/mv/mv",
+      "iconPath":"/images/mv.png",
+      "selectedIconPath":"/images/selected-mv.png",
+      "text": "MV"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

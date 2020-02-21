@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-movie":"/components/movie-item/movie-item"
+  },
+  "navigationBarTitleText": "电影",
+  "navigationBarBackgroundColor": "#333",
+  "navigationBarTextStyle": "white"
+}

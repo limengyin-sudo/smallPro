@@ -1,0 +1,13 @@
+<view class="item">
+    <view class="left">
+        <image class="avatar" src="{{listData.avatar}}"></image>
+    </view>
+    <view class="right">
+        <text class="nickname">{{listData.nickname}}:</text>
+        <text class="content">{{listData.content}}</text>
+        <text class="time">{{listData.time}}</text>
+        <slot name="icon" class="icon"></slot>
+        <text class="likedCount">({{listData.likedCount}})</text>
+        <text class="repliedMark">| 回复</text>
+    </view>
+</view>

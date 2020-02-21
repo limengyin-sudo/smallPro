@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-detail":"/components/detail/detail"
+  }
+}

@@ -1,0 +1,9 @@
+<view>
+    <view><image class="album" src="{{detailData.picUrl}}" ></image></view>
+    <view class="detail">
+        <text class="name">{{detailData.name}}</text>
+        <text class="artistName">{{detailData.artistName}}</text>
+        <button class="play" bind:tap="click">播放</button>
+    </view>
+    <text class="info">专辑介绍：{{detailData.info}}</text>
+</view>

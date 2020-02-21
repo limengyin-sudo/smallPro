@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/read/read",
+    "pages/readDetail/readDetail",
+    "pages/movie/movie",
+    "pages/movieMore/movieMore",
+    "pages/movieDetail/movieDetail",
+    "pages/music/music",
+    "pages/musicList/musicList",
+    "pages/musicPlay/musicPlay",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#bfbfbf",
+    "selectedColor":"#333",
+    "list": [{
+      "pagePath": "pages/read/read",
+      "text": "阅读",
+      "iconPath": "/images/tab/read.png",
+      "selectedIconPath": "/images/tab/read-ed.png"
+    },{
+      "pagePath": "pages/movie/movie",
+      "text": "电影",
+      "iconPath": "/images/tab/movie.png",
+      "selectedIconPath": "/images/tab/movie-ed.png"
+    },{
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+      "iconPath": "/images/tab/music.png",
+      "selectedIconPath": "/images/tab/music-ed.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "个人中心",
+      "iconPath": "/images/tab/wode.png",
+      "selectedIconPath": "/images/tab/wode-ed.png"
+    }]
+  },
+  "requiredBackgroundModes": ["audio", "location"],
+  "sitemapLocation": "sitemap.json"
+}

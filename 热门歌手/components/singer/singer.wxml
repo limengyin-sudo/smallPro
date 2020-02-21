@@ -1,0 +1,8 @@
+<view>
+    <text class="artistName">{{singerData.name}}</text>
+    <view class="pic">
+        <image src="{{singerData.img1v1Url}}"></image>
+        <view class="user"><slot name="userIcon"></slot></view>
+        <view class="collection"><slot name="collectionIcon"></slot></view>
+    </view>
+</view>

@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    text-align: center;
+}
+.user{
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 50%;
+    margin-top: 220rpx;
+}
+.name,
+.location{
+    font-size: 32rpx;
+    color: #333;
+    margin-top: 20rpx;
+}
+button{
+    width: 300rpx;
+    font-size: 32rpx;
+    color: #333;
+}
+.map{
+    height: 460rpx;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60rpx;
+}

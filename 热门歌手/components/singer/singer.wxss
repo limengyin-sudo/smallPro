@@ -1,0 +1,16 @@
+.artistName{
+    font-size: 42rpx;
+    display: block;
+    margin: 30rpx;
+    color: #eb7070;
+}
+.pic{
+    width: 100%;
+    height: 700rpx;
+    position: relative;
+}
+image{
+    width: 710rpx;
+    height: 660rpx;
+    padding: 20rpx;
+}

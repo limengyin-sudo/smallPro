@@ -1,0 +1,14 @@
+<wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="container">
+    <image class="coverImg" src="{{coverImgUrl}}"></image>
+    <view class="list">播放列表</view>
+    <view class="item" wx:for="{{playlist}}" wx:key="{{item.id}}"
+    bind:tap="handleItem" data-id="{{item.id}}" 
+    data-poster="{{item.coverImage}}" data-name="{{item.name}}">
+        <view class="listCover">
+            <view><image class="coverPic" src="{{item.coverImage}}"></image></view>
+            <text class="name">{{tools.formatSlice(item.name)}}</text>
+        </view>
+        <image class="playIcon" src="{{isPlay&&playId==item.id?'/images/icon/play.png':'/images/icon/pause.png'}}"></image>
+    </view>
+</view>

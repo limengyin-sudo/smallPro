@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="nav">
+        <form bind:submit="handleSubmit" class="search-wrap">
+            <input type="text" name="keyword" placeholder="搜索图书名称" />
+            <button class="search" form-type='submit'>搜索</button>
+        </form>
+    </view>
+    <view class="content">
+        <view class="ago-wrap">
+            <view class="ago">历史搜索</view>
+            <view class="ago-content">
+                <text class="item"  wx:for="{{ago}}" 
+                wx:key="{{item}}">{{item}}</text>
+            </view>
+        </view>
+        <view class="hot-wrap">
+            <view class="hot">热门搜索</view>
+            <view class="hot-content">
+                <text class="item" wx:for="{{hot}}" 
+                wx:key="{{item}}">{{item.first}}</text>
+            </view>
+        </view>
+    </view>
+</view>

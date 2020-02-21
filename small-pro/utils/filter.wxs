@@ -1,0 +1,35 @@
+function format(value){
+    if(value>10000){
+        value = parseInt(value/10000)+'万'
+    }else{
+        value = value + "人"
+    }
+    return value
+}
+function formatSlice(value){
+    if(value){
+        if(value.length > 15){
+            value = value.slice(0,15)+"..."
+        }
+        return value
+    }
+}
+function formatStar(value) {
+    if (value) {
+        var value = value.substring(0, 1);
+        var arr = []
+        for (var i = 1; i <= 5; i++) {
+            if (i <= value) {
+                arr.push(1)
+            } else {
+                arr.push(0)
+            }
+        }
+        return arr;
+    }
+}
+module.exports = {
+    format:format,
+    formatSlice:formatSlice,
+    formatStar:formatStar
+}

@@ -1,0 +1,15 @@
+/* components/ItemIcon/ItemIcon.wxss */
+.icon{
+    width:36rpx;
+    height: 36rpx;
+}
+.item{
+    position: relative;
+    margin-top: 20px;
+    width:220rpx;
+    font-size: 32rpx;
+}
+.item .bg{
+    width:220rpx;
+    height: 220rpx;
+}

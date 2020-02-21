@@ -1,0 +1,11 @@
+<view class="container">
+    <image class="user" bind:tap="handleImage" src="{{user}}"></image>
+    <view class="name">{{name}}</view>
+    <button wx:if="{{isTrue}}" open-type="getUserInfo" lang="zh_CN" 
+    bindgetuserinfo="onGetUserInfo">获取用户信息</button>
+    <view class="location">地址：湖北大学知行学院</view>
+    <map class="map" longitude="{{longitude}}" latitude="{{latitude}}" 
+    markers="{{markers}}" circles="{{circles}}">
+        
+    </map>
+</view>

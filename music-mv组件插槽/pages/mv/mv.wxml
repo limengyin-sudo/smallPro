@@ -1,0 +1,3 @@
+<view class="container-grid">
+    <v-item wx:for="{{mv}}" data="{{item}}"></v-item>
+</view>

@@ -1,0 +1,12 @@
+<wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="item" bind:tap="handleItem">
+    <image class="cover" src="{{data.images.small}}"></image>
+    <text class="title">{{data.title}}</text>
+    <view class="btm">
+        <image class="star" 
+        wx:for="{{tools.formatStar(data.rating.stars)}}" 
+        wx:key="{{index}}"
+        src="{{item==1?'/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+        <text class="rating">{{data.rating.average}}</text>
+    </view>
+</view>

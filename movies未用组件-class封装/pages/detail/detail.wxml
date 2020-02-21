@@ -1,0 +1,21 @@
+<view class="container">
+    <view class="item" wx:for="{{list}}" wx:key="{{item}}"
+    data-id="{{id}}">
+        <text class="title">{{item.title}}</text>
+        <view class="detail">
+            <view><image class="cover" src="{{item.image}}"></image></view>
+            <view class="detail-lists">
+                <text class="">导演:{{item.write}}</text>
+                <text class="">编剧:{{item.directors}}</text>
+                <text class="">主演:{{item.casts}}</text>
+                <text class="">类型:{{item.genres}}</text>
+                <text class="">制片国家/地区:{{item.countries}}</text>
+                <text class="">语言:{{item.languages}}</text>
+                <text class="">上映日期:{{item.pubdates}}</text>
+                <text class="">片长:{{item.durations}}</text>
+                <text class="">又名:{{item.aka}}</text>
+            </view>
+        </view>
+        <text class="validity">内容简介：{{item.summary}}</text>
+    </view>
+</view>

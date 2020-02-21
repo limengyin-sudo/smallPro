@@ -1,0 +1,6 @@
+<view class="container">
+    <v-detail wx:for="{{songs}}" wx:key="{{item.id}}" 
+    detailData="{{item}}">
+        <view slot="icon"><image class="icon" src="/images/pause.png"></image></view>
+    </v-detail>
+</view>

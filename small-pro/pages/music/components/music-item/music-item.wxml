@@ -1,0 +1,22 @@
+<wxs src="../../../../utils/filter.wxs" module="tools"></wxs>
+<view class="nav">
+    <view>
+        <slot name="icon"></slot>
+        <text class="title">{{title}}</text>
+    </view>
+    <view class="more">更多></view>
+</view>
+<view class="container">
+    <block wx:for="{{data}}" wx:key="{{item.id}}">
+        <view class="item" bind:tap="handleItem" data-id="{{item.id}}">
+            <view class="cover">
+                <view class="playNum">
+                    <image class="listenIcon" src="/images/icon/p0.png"></image>
+                    <text class="playCount">{{tools.format(item.playCount)}}</text>
+                </view>
+                <image class="album" src="{{item.coverImgUrl}}"></image>
+            </view>
+            <text class="name">{{item.name}}</text>
+        </view>
+    </block>
+</view>

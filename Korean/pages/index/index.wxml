@@ -1,0 +1,6 @@
+<view class="container">
+  <v-item wx:for="{{musics}}" itemData="{{item}}"
+  wx:key="{{item.id}}">
+  </v-item>
+</view>
+<view class="end" wx:if="{{isEnd}}">已经达到底部</view>

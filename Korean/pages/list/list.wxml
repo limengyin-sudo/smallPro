@@ -1,0 +1,5 @@
+<view class="container">
+    <v-list wx:for="{{list}}" wx:key="{{item.id}}"  listData="{{item}}">
+        <view slot="icon"><image class="icon" src="../../images/like.png"></image></view>
+    </v-list>
+</view>

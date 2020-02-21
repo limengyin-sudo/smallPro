@@ -1,0 +1,27 @@
+.item{
+    width: 180rpx;
+    margin-right: 18rpx;
+    margin-left: 18rpx;
+    border: 1px solid #e0e0ee;
+    margin-top: 50rpx;
+}
+.album{
+    width: 180rpx;
+    height: 180rpx;
+}
+.name{
+    font-size: 32rpx;
+    color: #333;
+}
+.name{
+    width: 180rpx;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.publishTime{
+    display: block;
+    font-size: 28rpx;
+    color: #666;
+}

@@ -1,0 +1,16 @@
+/* pages/movie/movie.wxss */
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 30rpx 30rpx 0;
+}
+.more{
+    font-size: 30rpx;
+    color: #333;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30rpx;
+}

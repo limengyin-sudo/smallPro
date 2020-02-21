@@ -1,0 +1,6 @@
+<!-- components/ItemIcon/ItemIcon.wxml -->
+<view class="item">
+    <slot name="icon"></slot>
+    <image class="bg" src="{{data.coverImgUrl}}"></image>
+    <text>{{data.name}}</text>
+</view>

@@ -1,0 +1,35 @@
+.coverImg{
+    width: 100%;
+    vertical-align: bottom;
+}
+.list{
+    background: #eee;
+    padding-left: 20rpx;
+    font-size: 36rpx;
+    color: #333;
+    line-height: 80rpx;
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: 20rpx;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+}
+.listCover{
+    display: flex;
+    align-items: center;
+}
+.coverPic{
+    width: 100rpx;
+    height: 100rpx;
+}
+.name{
+    font-size: 30rpx;
+    color: #333;
+    margin-left: 30rpx;
+}
+.playIcon{
+    width: 40rpx;
+    height: 40rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-singer":"../../components/singer/singer",
+    "v-sheet":"../../components/songSheet/songSheetItem"
+  }
+}

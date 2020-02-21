@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="user" src="/images/avatar/user.png"></image>
+  <view class="hello">hello,小程序</view>
+  <view class="go" bind:tap="handleGo">开启我的小程序之旅</view>
+</view>

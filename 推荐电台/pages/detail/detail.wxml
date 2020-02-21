@@ -1,0 +1,6 @@
+<view class="container">
+    <v-detail wx:for="{{radio}}" wx:key="{{item.id}}" detailData="{{item}}"
+    data-id="{{item.id}}">
+
+    </v-detail>
+</view>

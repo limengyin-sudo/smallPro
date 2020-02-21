@@ -1,0 +1,8 @@
+.icon{
+    width: 36rpx;
+    height: 36rpx;
+}
+.number{
+    color: #bebebe;
+    font-size: 14px;
+}

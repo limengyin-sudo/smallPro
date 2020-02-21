@@ -1,0 +1,10 @@
+<view class="item" bind:tap="handleClick">
+    <view><image class="pic" src="{{indexData.radio.picUrl}}"></image></view>
+    <view class="detail">
+        <text class="name">{{indexData.name}}</text>
+        <text class="radioName">{{indexData.radio.name}}</text>
+        <text class="listenerCount">播放{{indexData.listenerCount}}</text>
+    </view>
+    <text class="likedCount">赞{{indexData.likedCount}}</text>
+    <text class="category">{{indexData.radio.category}}</text>
+</view>

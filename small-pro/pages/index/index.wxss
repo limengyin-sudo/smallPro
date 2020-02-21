@@ -1,0 +1,28 @@
+page{
+  background-color: #333;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200rpx 0;
+} 
+.user{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+.hello{
+  color: #000;
+  margin-top: 100rpx;
+}
+.go{
+  color: #000;
+  line-height: 56rpx;
+  border: 1px solid #000;
+  border-radius: 8rpx;
+  margin-top: 300rpx;
+  padding: 8rpx;
+  font-size: 30rpx;
+}

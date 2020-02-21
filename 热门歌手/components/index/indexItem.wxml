@@ -1,0 +1,5 @@
+<view class="item" bind:tap="handleClick">
+    <slot name="icon"></slot>
+    <image class="bg" src="{{indexData.img1v1Url}}"></image>
+    <text>{{indexData.name}}</text>
+</view>

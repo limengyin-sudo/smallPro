@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.icon{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  bottom: 0;
+  right: 10rpx;
+}

@@ -1,0 +1,44 @@
+.album{
+    width: 360rpx;
+    height: 360rpx;
+    padding: 20rpx;
+}
+.detail{
+    position: relative;
+}
+.name{
+    font-size: 18px;
+    color: #eb7070;
+}
+.alia{
+    color: #666;
+    font-size: 12px;
+}
+text{
+    display: block;
+    padding-left: 20rpx;
+    color: #333;
+    font-size: 15px;
+}
+.artist,
+.publishTime,
+.company{
+    padding-top: 20rpx;
+}
+button{
+    width: 130rpx;
+    height: 60rpx;
+    font-size: 12px;
+    text-align: center;
+    line-height: 60rpx;
+    background-color: #eb7070;
+    color: #fff;
+    position: absolute;
+    bottom: -80rpx;
+    left: 20rpx;
+}
+.info{
+    padding-top: 100rpx;
+    color: #333;
+    line-height: 80rpx;
+}

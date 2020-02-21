@@ -1,0 +1,18 @@
+<view class="container">
+    <image class="cover" src="{{item.imgSrc}}"></image>
+    <image class="play" bind:tap="handlePlay" 
+    src="{{isPlay?'/images/music/play.png':'/images/music/pause.png'}}"></image>
+    <view class="detail">
+        <image src="{{item.avatar}}"></image>
+        <text class="author">{{item.author}}</text>发表于:
+        <text class="dateTime">{{item.dateTime}}</text>
+    </view>
+    <view class="title">{{item.title}}</view>
+    <view class="collect-share">
+        <image class="collect" bind:tap="handleCollect" 
+        src="{{isCollected?'/images/icon/collect-ed.png':'/images/icon/collect.png'}}"></image>
+        <image class="share" bind:tap="handleShare" 
+        src="/images/icon/share.png"></image>
+    </view>
+    <view class="content">{{item.detail}}</view>
+</view>

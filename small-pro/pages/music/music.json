@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-music":"components/music-item/music-item"
+  },
+  "navigationBarTitleText": "音乐",
+  "navigationBarBackgroundColor": "#333",
+  "navigationBarTextStyle": "white"
+}

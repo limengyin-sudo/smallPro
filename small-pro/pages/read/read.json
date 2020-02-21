@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-read":"/components/read-item/read-item"
+  },
+  "navigationBarTitleText": "阅读",
+  "navigationBarBackgroundColor": "#333",
+  "navigationBarTextStyle": "white"
+}

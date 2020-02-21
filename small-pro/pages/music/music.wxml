@@ -1,0 +1,9 @@
+<v-music title="热门歌曲" data="{{hotSongs}}">
+    <image class="slot-icon" slot="icon" src="/images/icon/hot.png"></image>
+</v-music>
+<v-music title="日语歌曲" data="{{janSongs}}">
+    <image class="slot-icon" slot="icon" src="/images/icon/jan.png"></image>
+</v-music>
+<v-music title="推荐电台" data="{{djSongs}}">
+    <image class="slot-icon" slot="icon" src="/images/icon/dj.png"></image>
+</v-music>

@@ -1,0 +1,5 @@
+<view class="item">
+    <image class="album" src="{{albumData.picUrl}}"></image>
+    <text class="name">{{albumData.name}}</text>
+    <text class="publishTime">{{albumData.publishTime}}</text>
+</view>

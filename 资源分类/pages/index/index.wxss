@@ -1,0 +1,26 @@
+.container{
+    width: 750rpx;
+}
+.box{
+    position: relative;
+}
+.icon{
+    width: 50rpx;
+    height: 50rpx;
+    margin: 20rpx;
+}
+.head{
+    font-size: 38rpx;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 20rpx;
+}
+.more{
+    font-size: 32rpx;
+    color: #666;
+    font-weight: bold;
+    position: absolute;
+    top: 20rpx;
+    right: 28rpx;
+}

@@ -1,0 +1,135 @@
+.bg{
+    width: 100%;
+    height: 420rpx;
+    position: relative;
+}
+.bg>image{
+    width: 100%;
+    height: 420rpx;
+}
+.blur{
+    position: absolute;
+    width: 100%;
+    height: 420rpx;
+    background-color: rgba(0,0,0,.3);
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(8px);
+}
+.basic-intro{
+    width: 100%;
+    height: 420rpx;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.basic-intro>text{
+    display: block;
+}
+.location-year,
+.number{
+    margin-top: 50rpx;
+    margin-left: 30rpx;
+}
+.title{
+    margin-top: 80rpx;
+    margin-left: 30rpx;
+    font-size: 56rpx;
+    font-weight: bold;
+    color: cornsilk;
+}
+.location-year{
+    color: cornsilk;
+    font-size: 36rpx;
+}
+.number{
+    font-size: 32rpx;
+    color: cornsilk;
+}
+.count{
+    color: #f09c67;
+    margin-right: 10rpx;
+}
+.like,
+.info{
+    color: #666;
+    margin-right: 20rpx;
+}
+.cover{
+    width: 190rpx;
+    height: 280rpx;
+    position: absolute;
+    right: 30rpx;
+    bottom: -100rpx;
+    border-radius: 6rpx;
+}
+.detail{
+    width: 100%;
+    color: #666;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 30rpx;
+}
+.detail-title,
+.score-star,
+.direct-name,
+.label-actor,
+.cast,
+.type{
+    margin-left: 20rpx;
+    line-height: 80rpx;
+    font-size: 34rpx;
+}
+.detail-title{
+    font-size: 40rpx;
+    color: #333;
+}
+.star{
+    width: 36rpx;
+    height: 36rpx;
+}
+.direct-name{
+    display: block;
+}
+.type{
+    display: flex;
+}
+.genres{
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+}
+.brief-intro{
+    margin-top: 40rpx;
+    padding-bottom: 30rpx;
+    border-bottom: 1px solid #e0e0e0;
+}
+.brief-intro>text{
+    display: block;
+    padding: 20rpx;
+}
+.intro-title{
+    color: #333;
+}
+.summary{
+    text-indent: 2em;
+    font-size: 32rpx;
+    color: #333;
+    line-height: 64rpx;
+}
+.actor-people{
+    padding: 20rpx;
+    color: #333;
+    font-size: 34rpx;
+}
+.scroll{
+    padding: 20rpx;
+    white-space: nowrap;
+}
+.images{
+    display: inline-block;
+}
+.img{
+    width: 180rpx;
+    height: 260rpx;
+    margin-right: 20rpx;
+    border-radius: 6rpx;
+}

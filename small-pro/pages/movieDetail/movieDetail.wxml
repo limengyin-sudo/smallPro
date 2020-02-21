@@ -1,0 +1,53 @@
+<wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="container">
+    <view class="bg">
+        <image src="{{subject.images.small}}"></image>
+    </view>
+    <view class="blur"></view>
+    <view class="basic-intro">
+        <text class="title">{{subject.title}}</text>
+        <text class="location-year">{{subject.countries[0]}} ·{{subject.year}}</text>
+        <view class="number">
+            <text class="count">{{subject.collect_count}}</text>
+            <text class="like">人喜欢</text>
+            <text class="count">{{subject.ratings_count}}</text>
+            <text class="info">条评论</text>
+        </view>
+        <image class="cover" src="{{subject.images.small}}"></image>
+    </view>
+    <view class="detail">
+        <text class="detail-title">{{subject.title}}</text>
+        <view class="score-star">
+            <text>评分</text>
+            <image class="star" wx:for="{{tools.formatStar(subject.rating.stars)}}"
+            wx:key="{{item}}" 
+            src="{{item==1?'/images/icon/star.png':'/images/icon/none-star.png'}}">
+            </image>
+            <text>{{subject.rating.average}}</text>
+        </view>
+        <text class="direct-name">导演:{{subject.directors[0].name}}</text>
+        <text class="label-actor">影人:</text>
+        <text class="cast" wx:for="{{subject.casts}}" 
+        wx:key="{{item}}">{{item.name}}</text>
+        <view class="type">
+            <text class="label">类型:</text>
+            <text class="genres" wx:for="{{subject.genres}}" 
+            wx:key="{{item}}">{{item}}</text>
+        </view>
+    </view>
+    <view class="brief-intro">
+        <text class="intro-title">剧情简介</text>
+        <text class="summary">{{subject.summary}}</text>
+    </view>
+    <view class="imgs">
+        <text class="actor-people">影人</text>
+        <scroll-view class="scroll" scroll-x="true">
+            <view class="images" wx:for="{{subject.casts}}" wx:key="{{item}}">
+                <image class="img" bind:tap="handleImg" 
+                src="{{item.avatars.small}}" data-url="{{item.avatars.small}}">
+
+                </image>
+            </view>
+        </scroll-view>
+    </view>
+</view>

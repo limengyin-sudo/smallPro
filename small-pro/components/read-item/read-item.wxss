@@ -1,0 +1,54 @@
+page{
+    background-color: #eee;
+}
+.item{
+    padding: 20rpx;
+    margin-bottom: 40rpx;
+    background-color: #fff;
+}
+.head{
+    display: flex;
+    align-items: center;
+    height: 80rpx;
+}
+.head>image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.head>text{
+    font-size: 36rpx;
+    color: #333;
+    margin-left: 40rpx;
+}
+.cover{
+    width: 100%;
+    height: 400rpx;
+}
+.icon{
+    width: 42rpx;
+    height: 42rpx;
+}
+.content{
+    font-size: 34rpx;
+    line-height: 62rpx;
+    color: #666;
+}
+.title{
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    font-size: 40rpx;
+    font-weight: bold;
+    color: #333;
+    line-height: 60rpx;
+}
+.bottom{
+    font-size: 32rpx;
+    color: #666;
+    display: flex;
+    align-items: center;
+    height: 50rpx;
+}
+.bottom>text{
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
